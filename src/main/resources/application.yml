@@ -7,8 +7,6 @@ mybatis:
 
 spring:
   datasource:
-    username: root
-    password: g4885885
     url: jdbc:mysql://localhost:3306/beipin?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
